@@ -47,6 +47,7 @@ while enemy > 0:
 if enemy <= 0 and data["playerhp"] > 0:
     print("you won!")
     data["playerxp"] += 100
+    data["coins"] += 100
     levelup()
     print(f"you increased your level!: {data['playerlvl']}")
 
